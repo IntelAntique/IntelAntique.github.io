@@ -1,0 +1,83 @@
+@import "@font/nunito";
+
+*{
+  box-sizing: border-box;
+  font-family: var(--fontFamily-nunito);
+}
+
+/* Underline styles */
+a {
+  display: block;
+  position: relative;
+  padding: 0.2em 0;
+}
+
+/* Fade in */
+a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: rgb(105, 158, 255);
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}
+
+a:hover::after,
+a:focus::after {
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
+}
+
+.Typing{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.App{
+  min-height: 100vh;
+  background-color: #1E1E1E;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-image: url("https://media.tenor.com/g0lOVxsqwcYAAAAd/gyrate.gif");npm i typewriter-effect */
+}
+
+.Container{
+  color:white;
+  margin: 1rem;
+  text-align: center;
+}
+
+.nav{
+  background-color: #1E1E1E;
+  border-bottom: 2px solid white;
+  color: #1776FF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 32px;
+  gap: 2rem;
+  padding: 1rem 2rem;
+}
+
+.nav a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav ul{
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 6rem;
+}
+
+.Home{
+  font-size: 24px;
+}

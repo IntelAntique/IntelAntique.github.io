@@ -1,0 +1,127 @@
+.Skills{
+  justify-content: center;
+  font-size: 24px;
+  color: white;
+  display: flex;
+}
+
+.Paragraph{
+  text-align: left;
+  padding: 3rem;
+  border-left-style: solid;
+  border-left-color:#2187e7;
+  border-left-width: 4px;
+  margin-left: 40px;
+  font-size: 32px;
+}
+
+.Language{
+  text-align: left;
+  list-style-type: none;
+}
+
+.bar{
+  width: 500px;
+  background: #353b48;
+  display: block;
+  height: 4px;
+  border: 1px solid rgb(0, 0, 0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span{
+  height: 4px;
+  float: left;
+  background: #2187e7;
+}
+
+.English{
+  width: 90%;
+  animation: English 2s;
+}
+
+.Mandarin{
+  width: 50%;
+  animation: Mandarin 2s;
+}
+
+.Cantonese{
+  width: 70%;
+  animation: Cantonese 2s;
+}
+
+@keyframes English {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+
+@keyframes Mandarin {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 50%;
+  }
+}
+
+@keyframes Cantonese {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 70%;
+  }
+}
+
+.Coding{
+  text-align: left;
+  list-style-type: none;
+}
+
+.Python{
+  width: 80%;
+  animation: Python 2s;
+}
+
+.Java{
+  width: 75%;
+  animation: Java 2s;
+}
+
+.C{
+  width: 50%;
+  animation: C 2s;
+}
+
+@keyframes Python {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+
+@keyframes Java {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 75%;
+  }
+}
+
+@keyframes C {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 50%;
+  }
+}
