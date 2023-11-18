@@ -4,7 +4,7 @@ export default function About(){
     return <div className="About">
         <p className='Paragraph' > 
             Passionate and enthusiastic 3rd-year Computer Science major at UW-Madison with great interpersonal skills 
-            and interested in a job at Web, App development, as well as Operating Systems
+            and interested in a job at Web, App development, Machine Learning, Optimization, and Game Development. 
         </p>
         <div className="Skills">
             <ul className="Language"> Language Proficiency

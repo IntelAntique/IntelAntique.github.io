@@ -1,8 +1,13 @@
-@import "@font/nunito";
+@font-face {
+  font-family: 'Nunito';
+  src: url(./fonts/Nunito-VariableFont_wght.ttf) format('truetype');
+  font-weight: 700;
+}
 
 *{
   box-sizing: border-box;
-  font-family: var(--fontFamily-nunito);
+  /* font-family: var(--fontFamily-nunito); */
+  font-family: 'Nunito', sans-serif;
 }
 
 /* Underline styles */
