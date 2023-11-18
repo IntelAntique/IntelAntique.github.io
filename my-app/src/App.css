@@ -48,6 +48,7 @@ a:focus::after {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
   /* background-image: url("https://media.tenor.com/g0lOVxsqwcYAAAAd/gyrate.gif");npm i typewriter-effect */
 }
 
