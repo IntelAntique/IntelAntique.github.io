@@ -48,7 +48,7 @@ a:focus::after {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: hidden;
+  overflow: auto;
   /* background-image: url("https://media.tenor.com/g0lOVxsqwcYAAAAd/gyrate.gif");npm i typewriter-effect */
 }
 
@@ -56,32 +56,8 @@ a:focus::after {
   color:white;
   margin: 1rem;
   text-align: center;
-}
-
-.nav{
-  background-color: #1E1E1E;
-  border-bottom: 2px solid white;
-  color: #1776FF;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 32px;
-  gap: 2rem;
-  padding: 1rem 2rem;
-}
-
-.nav a{
-  color: inherit;
-  text-decoration: none;
-}
-
-.nav ul{
-  font-size: 24px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  gap: 6rem;
+  display: flexbox;
+  flex-wrap: wrap;
 }
 
 .Home{

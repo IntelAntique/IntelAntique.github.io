@@ -1,8 +1,11 @@
 .Skills{
-  justify-content: center;
+  justify-content: space-evenly;
   font-size: 24px;
   color: white;
   display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  flex-wrap: wrap;
 }
 
 .Paragraph{
@@ -85,7 +88,7 @@
 }
 
 .Python{
-  width: 80%;
+  width: 90%;
   animation: Python 2s;
 }
 
@@ -95,7 +98,7 @@
 }
 
 .C{
-  width: 50%;
+  width: 85%;
   animation: C 2s;
 }
 
@@ -104,7 +107,7 @@
     width: 0%;
   }
   100%{
-    width: 80%;
+    width: 90%;
   }
 }
 
@@ -122,6 +125,6 @@
     width: 0%;
   }
   100%{
-    width: 50%;
+    width: 85%;
   }
 }

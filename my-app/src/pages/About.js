@@ -3,8 +3,8 @@ import './About.css'
 export default function About(){
     return <div className="About">
         <p className='Paragraph' > 
-            Passionate and enthusiastic 3rd-year Computer Science major at UW-Madison with great interpersonal skills 
-            and interested in a job at Web, App development, Machine Learning, Optimization, and Game Development. 
+            Passionate and enthusiastic 4th-year Computer Science major at UW-Madison with great interpersonal skills 
+            and interested in a job at Web app development, Machine Learning, Optimization, and Game Development. 
         </p>
         <div className="Skills">
             <ul className="Language"> Language Proficiency
@@ -19,7 +19,7 @@ export default function About(){
                 </li>
             </ul>
 
-            <ul className="Coding"> Coding Proficiency
+            <ul className="Coding"> Programming Proficiency
                 <li>
                     <p>Python</p> <span className="Coding bar"><span className="Python"></span></span>
                 </li>
