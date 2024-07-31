@@ -6,7 +6,6 @@
     justify-content: space-between;
     align-items: center;
     font-size: 32px;
-    gap: 2rem;
     padding: 1rem 2rem;
     flex-wrap: wrap;
 }
@@ -22,11 +21,10 @@
     padding: 0;
     list-style: none;
     display: flex;
-    gap: 6rem;
+    gap: 0px 5vmin;
 }
 
 .NavBar{
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
 }

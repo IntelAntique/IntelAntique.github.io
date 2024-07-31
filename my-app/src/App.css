@@ -43,7 +43,7 @@ a:focus::after {
 }
 
 .App{
-  min-height: 100vh;
+  min-height: 100svh;
   background-color: #1E1E1E;
   background-position: center;
   background-repeat: no-repeat;
@@ -53,6 +53,7 @@ a:focus::after {
 }
 
 .Container{
+  /* background-color: black; */
   color:white;
   margin: 1rem;
   text-align: center;
