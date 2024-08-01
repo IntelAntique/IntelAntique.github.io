@@ -1,6 +1,35 @@
 .Projects{
+    display: flex;
+    justify-content: center;
     text-align: center;
-    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.Card{
+    width: 450px;
+    height: 40vmin;
+    border-radius: 5%;
+    background-color:cornflowerblue;
+    background-image: linear-gradient(rgb(25, 95, 247), rgb(113, 5, 255));
     align-content: center;
-    align-self: center;
+    margin: 10px;
+}
+
+.Front{ 
+    align-content: center;
+    width: 450px;
+    height: 40vmin;
+    border-radius: 5%;
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.Back{
+    align-content: center;
+    width: 450px;
+    height: 40vmin;
+    border-radius: 5%;
+    background-color: #f1f1f1;
+    color: black;
 }

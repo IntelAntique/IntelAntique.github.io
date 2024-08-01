@@ -18,7 +18,7 @@ export default function Contact(){
     }
     
     return <h1 className='Contact_Me'>
-        <h1 className />Find me here!
+        <h1> Find me here! </h1>
         <p className="Contact_Paragraph">
             If you found me interesting, feel free to use the feature below to contact me 
             or just click on any of those links

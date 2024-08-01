@@ -52,15 +52,6 @@ a:focus::after {
   /* background-image: url("https://media.tenor.com/g0lOVxsqwcYAAAAd/gyrate.gif");npm i typewriter-effect */
 }
 
-.Container{
-  /* background-color: black; */
-  color:white;
-  margin: 1rem;
-  text-align: center;
-  display: flexbox;
-  flex-wrap: wrap;
-}
-
 .Home{
   font-size: 24px;
 }
