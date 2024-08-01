@@ -36,7 +36,7 @@ export default function Projects(){
             </div>
         </div>
         
-        <div style={{display: "grid"}}>
+        <div style={{display: "grid", margin: "5px"}}>
             {/* <a href="https://www.roblox.com/users/17279438/profile" >not available</a> */}
             <div style={{color: "white"}}>
                 not available yet
